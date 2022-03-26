@@ -1,0 +1,193 @@
+*{
+  margin: 0;
+  padding: 0px;
+  box-sizing: border-box;
+} 
+
+body{
+ background-image: url(./fondo.jpg);
+ background-position: center center;
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+ background-size: cover;
+ background-color: #fff;
+ text-align: center;
+}
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 50px;
+  font-style: italic;
+  margin: 30px;
+}
+.lienzo{
+  font-size: 32px;
+  color: #fff;
+}
+
+#lienzo {
+  background: rgba(207, 207, 204, 0.2);
+  text-align: center;
+  box-shadow: 5px 8px 12px rgb(247, 244, 244);
+}
+
+#palabra {
+  font-family: 'Arial', sans-serif;
+  font-size: 50px;
+}
+
+.botones { 
+  height: 340px;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 0px;
+
+}
+
+#letra {
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+  outline: none;
+  border-radius: 0.6em;
+  border: solid #6a0518;
+  width: 80px;
+  height: 80px;
+  vertical-align: middle;
+}
+ 
+#boton {
+  vertical-align: middle;
+}
+
+#chance {
+font-family: 'Roboto', sans-serif;
+font-size: 20px;
+color: #fff;
+padding: 20px 0px 50px;
+}
+
+.btn {
+    font-size: 18px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    background-color: #6a0518;
+    border-radius: 5px;
+    width: 280px; 
+    height: 40px;
+    text-align: center;
+    cursor: pointer;
+}
+
+#botones {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 0px;
+}
+  
+.text-input {
+  background-color: #eee;
+  font-family: inherit;
+  font-size: 18px;
+  text-align: center;
+  outline: none;
+  border: 1px solid gray;
+  width: 280px;
+  height: 40px;
+  border-radius: 5px;
+}
+
+/*Section footer contacto*/
+.contacto {
+  width: 100%;
+  height: 200px;
+  display: inline-block;
+  flex-direction: column;
+  background:  #212121;
+  align-items: center;
+  padding: 0px;
+  margin: 0px;
+}
+
+.contacto .social  {
+  margin-top: 50px;
+  padding: 0px;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.contacto .social li {
+  display: inline-block;
+  list-style: none;
+  margin: 0px 20px;
+}
+
+.contacto .social a { 
+  color: #fff;
+  text-decoration: none;   
+}
+.contacto .social i.fa {
+  font-size: 36px;
+  padding: 0px 0px;
+  transition: 0.3s;   
+}
+
+.social i.fa:hover {
+  color:#918f8f;
+}
+
+.copyright {
+  color:#fff;
+  font-family: 'Lato';
+  font-size: 16px;
+  font-weight: 500;
+  margin: 10px;
+  text-align: center;
+  padding: 20px 0px 0px;
+}
+
+@media screen and (max-width: 480px) {
+ 
+ body {
+   background-size: 100vh;
+ }
+  h1 {
+  font-size: 30px;
+  margin: 16px;
+ }
+#lienzo {
+  width: 65%;
+}
+#palabra {
+  font-size: 25px;
+  color: #3df70f;
+}
+#chance {
+  font-size: 16px;
+}
+.botones {
+  height: 305px;
+}
+/*Section footer contacto*/
+    .contacto {
+        height: 150px;
+        box-sizing: border-box;
+    }
+    .contacto .social i, p {
+      padding: 0px 0px 50px;
+    }
+
+    .contacto .social i.fa {
+        font-size: 25px;
+        padding: 0px 0px 0px;
+        transition: 0.3s;   
+    }
+    .copyright {
+        font-size: 12px;
+        padding: 5px 0px 0px;
+    }
+
+}
